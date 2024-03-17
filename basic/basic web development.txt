@@ -1,0 +1,19 @@
+1. Basics of Web Development:
+
+HTML:
+Basic structure
+Elements and attributes
+Semantic HTML
+
+CSS:
+Selectors and specificity
+Box model
+Flexbox and Grid layout
+Responsive design
+
+JavaScript:
+Variables, data types, operators
+Control flow (if statements, loops)
+Functions and scope
+DOM manipulation
+Asynchronous JavaScript (callbacks, promises, async/await)

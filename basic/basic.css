@@ -1,0 +1,48 @@
+.nav {
+  background-color: rgb(239, 208, 168);
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style-type: none;
+  font-size: 22px;
+  font-weight: bold;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  background-color: rgba(40, 40, 40, 0.573);
+  color: white;
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  border: 1px solid black;
+  border-radius: 12px;
+  height: 300px;
+  width: 300px;
+}
+.boxcontainer {
+  border: 1px solid black;
+  border-radius: 12px;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+  }
+}
