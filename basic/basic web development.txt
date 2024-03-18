@@ -1,4 +1,4 @@
-1. Basics of Web Development:
+Basics of Web Development: just for revision and pre practice
 
 HTML:
 Basic structure
