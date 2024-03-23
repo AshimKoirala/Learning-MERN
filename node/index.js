@@ -9,14 +9,16 @@
 
 const http = require("http");
 
-// Creating an HTTP server
-const server = http.createServer((_req, res) => {
-  // Handling incoming HTTP requests
-  res.writeHead(200, { "Content-Type": "text/plain" });
-  res.end("yo\n");
+const server = http.createServer((req, res) => {
+  if (req.url === "/hello") {
+    res.writeHead(200, { "Content-Type": "text/plain" });
+    res.end("this is working\n");
+  } else {
+    res.writeHead(404, { "Content-Type": "text/plain" });
+    res.end("404 Not Found\n");
+  }
 });
 
-// Listening for incoming requests on port 3000
-server.listen(3000, "localhost", () => {
+server.listen(3000, () => {
   console.log("Server running at http://localhost:3000/");
 });
