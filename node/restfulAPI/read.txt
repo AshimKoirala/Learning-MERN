@@ -1,1 +1,9 @@
 small project creted from learned topics
+
+and using postman to make requests
+
+To create a new user: POST /users
+To retrieve all users: GET /users
+To retrieve a user by ID: GET /users/:id
+To update a user by ID: PUT /users/:id
+To delete a user by ID: DELETE /users/:id
