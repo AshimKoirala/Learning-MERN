@@ -1,0 +1,3 @@
+project that verify the registered users and also store the data in the users.json
+
+used postman to get and post the /register and /login
