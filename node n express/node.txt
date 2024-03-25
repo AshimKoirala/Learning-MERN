@@ -22,3 +22,23 @@ Creating HTTP servers using the built-in 'http' module
 Handling HTTP requests and responses
 Implementing RESTful APIs with Express.js, a Node.js web application framework
 Managing middleware for request processing (e.g., body parsing, authentication)
+
+
+Learn Express.js:
+
+Introduction to Express.js:
+What is Express.js?
+Advantages over vanilla Node.js
+
+Middleware and routing:
+Middleware functions
+Route handling
+Route parameters and query strings
+
+Request and response handling:
+Parsing request data (body, query, params)
+Sending responses (status codes, headers)
+
+Error handling:
+Handling errors with middleware
+Error middleware
