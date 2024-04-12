@@ -1,1 +1,23 @@
-away for more than a week
+Introduction to NoSQL and MongoDB:
+Differences between SQL and NoSQL
+Advantages of MongoDB
+
+Basic CRUD operations:
+Inserting documents
+Querying documents
+Updating and deleting documents
+
+Interacting with MongoDB using Node.js:
+Using the MongoDB Node.js driver
+Connecting to MongoDB
+Performing CRUD operations
+
+Advanced MongoDB features:
+Aggregation framework
+Indexing and performance optimization
+Transactions
+
+Working with Databases in Node.js:
+Integrating MongoDB with Node.js using MongoDB Node.js Driver or Mongoose ODM (Object Data Modeling)
+Connecting to MongoDB database from Node.js application
+Performing CRUD (Create, Read, Update, Delete) operations with MongoDB
